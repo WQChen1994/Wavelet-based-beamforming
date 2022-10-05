@@ -1,0 +1,9 @@
+文件名：				用途：
+	Data_Set_Up.m				生成传感器数据
+	CWT_Set_Up.m				利用小波变换生成时频域数据
+	Image_Set_Up.m 				设置beamforming参数并输出最后结果
+	mics_coor_Array.mat			传声器坐标
+使用过程：
+	利用 Data_Set_Up.m 生成传声器数据，并存储在 Data 文件夹中。
+	利用 CWT_Set_Up.m 生成时频域数据并存储在 CWT 文件夹中
+	利用 Image_Set_Up.m 得到最后成像结果并存储在 Result 文件夹中
